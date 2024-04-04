@@ -26,7 +26,6 @@ mongoose.connect(mongoDbUrl, { useNewUrlParser: true })
 });
 
 
-
 /* Configure express*/
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
